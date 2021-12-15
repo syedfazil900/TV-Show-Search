@@ -1,6 +1,6 @@
 const form = document.querySelector("#searchForm");
 const h1 = document.querySelector("h1");
-let div = document.querySelector("div");
+let div = document.querySelector("#imagesDiv");
 form.addEventListener("submit", async function (e) {
     e.preventDefault();
     const searchTerm = form.elements.query.value;
