@@ -21,6 +21,9 @@ const makeImages = function(shows) {
             const img = document.createElement('IMG');
             img.src= result.show.image.medium;
             div.append(img);
+            div.querySelectorAll('*').forEach((n) =>{
+                n.classList.add("col-lg-4", "col-md-6","img",);
+            })
         }
   
     }
