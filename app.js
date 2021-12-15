@@ -1,9 +1,5 @@
 const form = document.querySelector("#searchForm");
-document.body.style.backgroundColor = "#B1D0E0";
-document.body.style.textAlign = "center";
 const h1 = document.querySelector("h1");
-h1.style.fontFamily = "Roboto"
-h1.style.fontSize = "3rem"
 let div = document.querySelector("div");
 form.addEventListener("submit", async function (e) {
     e.preventDefault();
